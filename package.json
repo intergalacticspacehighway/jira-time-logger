@@ -1,0 +1,33 @@
+{
+  "name": "jira-time-logger",
+  "version": "1.0.7",
+  "description": "Add Worklog in jira.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./cli.js",
+    "cred": "node ./cli.js --cred"
+  },
+  "author": "Nishan B <nishanbende@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.23.0",
+    "opn": "^5.4.0",
+    "ora": "^3.0.0",
+    "prompts": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sunny-Nishan/jira-time-logger.git"
+  },
+  "keywords": [
+    "jira",
+    "worklog",
+    "atlassian"
+  ],
+  "bin": {
+    "log-time": "./cli.js"
+  }
+}

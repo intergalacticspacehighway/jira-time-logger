@@ -1,0 +1,6 @@
+{
+  "JIRA_ISSUE_PREFIX e.g. issue=ABC-123 (Here, ABC is the prefix)": {
+    "name": "my-project",
+    "url": "https://my-project.atlassian.net"
+  }
+}
